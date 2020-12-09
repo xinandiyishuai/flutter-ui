@@ -1,5 +1,7 @@
 library flutterui;
 
+export 'package:flutterui/src/avatar.dart';
+
 /// A Calculator.
 class Calculator {
   /// Returns [value] plus 1.
