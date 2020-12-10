@@ -2,8 +2,8 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class FLAvatar extends StatelessWidget {
-  FLAvatar(
+class Avatar extends StatelessWidget {
+  Avatar(
       {Key key,
       this.image,
       this.color,
