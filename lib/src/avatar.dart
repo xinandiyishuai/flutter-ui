@@ -17,14 +17,14 @@ class Avatar extends StatelessWidget {
 
   final Image image;
 
-  /// Only use color for image == null.
+  /// 当image为空时color属性有效.
   final Color color;
   final String text;
   final TextStyle textStyle;
   final double width;
   final double height;
-
-  /// Default is width / 2, if width is null, radius = 1.
+  
+  /// 默认为宽度的一半.
   final double radius;
   final VoidCallback onTap;
 
